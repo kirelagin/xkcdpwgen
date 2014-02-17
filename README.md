@@ -1,4 +1,4 @@
-xkcdpwgen — Generating XKCD-style passwords
+xkcdpwgen — XKCD passwords
 ============================================
 
 `xkcdpwgen` is a tiny Python package that generates [XKCD-style passphrases](https://xkcd.com/936/) and it needs exactly one pass on the dictionary file.

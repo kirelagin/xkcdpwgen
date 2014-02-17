@@ -13,6 +13,9 @@ def generate_(wordlist, count=4, min_len=4, max_len=10):
                 if random.randint(1, words_matched) == 1:
                     words[j] = w
 
+    if words_matched == 0:
+        raise ValueError("No words matched")
+
     return (words, words_matched)
 
 def generate(*args, **kwargs):
